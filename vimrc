@@ -3,9 +3,9 @@
 " aesthetics
 syntax enable                     " enable syntax processing
 
-set background=light              " color theme light or dark
+colorscheme shine                " set color theme 
 
-colorscheme solarized             " set color theme (solarized.vim in ~/.vim/colors)
+set background=light              " color theme light or dark
 
 " spaces/tabs
 set smartindent
