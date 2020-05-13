@@ -1,11 +1,12 @@
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
+
 " Basic settings
 " """"""""""""""
 " aesthetics
 syntax enable                     " enable syntax processing
-
-colorscheme shine                " set color theme 
-
-set background=light              " color theme light or dark
 
 " spaces/tabs
 set smartindent
@@ -54,7 +55,5 @@ nnoremap <space> za
 
 
 " custom mappings
-imap jk <Esc>
-imap kj <Esc>                     " quicker exit of insert mode
-
+imap jk <Esc>                     " quicker exit of insert mode
 
